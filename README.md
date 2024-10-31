@@ -1,5 +1,8 @@
 #GitHub Toronto Users Analysis
+
 #Project Overview
+
+
 This project involves analyzing GitHub users based in Toronto with over 100 followers. We used the GitHub API to scrape user and repository data and perform various analyses to understand trends, commonalities, and insights in their usage patterns.
 
 #Key Findings
@@ -47,9 +50,11 @@ Most Common Surname:
 Ahmed
 
 #Explanation of Data Scraping Process
+
 To gather this data, we used the GitHub API, focusing on users in Toronto with more than 100 followers. Our script iterated over user profiles, collecting data such as follower count, registration date, repository information, and activity patterns. We then processed this data using Pandas to calculate metrics and answer specific queries regarding language usage, company affiliation, popular licenses, and more.
 
 #Interesting and Surprising Findings
+
 One surprising insight from our analysis is that users with longer bios tend to have more followers, with each additional word in their bio corresponding to around 8 more followers. This suggests that a well-detailed bio might positively impact engagement and followership on GitHub.
 
 #Actionable Recommendation for Developers
